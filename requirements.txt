@@ -1,5 +1,0 @@
-streamlit
-pygame
-pandas
-playsound
-streamlit-extras
