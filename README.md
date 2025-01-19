@@ -14,9 +14,9 @@ Features
 
 ```plaintext
 summerlympics/
-├── intro.py            # Home page script for game setup and customization
+├── 1_🏠_Home.py            # Home page script for game setup and customization
 ├── pages/
-│   └── Main.py         # Main gameplay logic, score tracking, and audio features
+│   └── 2_🎲_Game.py         # Main gameplay logic, score tracking, and audio features
 ├── pictures/           # Directory for background images used in games
 ├── sounds/             # Directory for audio files (background music, commentary, effects)
 ├── requirements.txt    # List of Python dependencies
