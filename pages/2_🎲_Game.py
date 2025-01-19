@@ -97,6 +97,7 @@ def update_score(player, game_number):
     st.session_state.games_played.append(game_number)
 
 def play_audio(file_path):
+    pass
     #def play_sound():
     #    try:
     #        sound = pygame.mixer.Sound(file_path)
