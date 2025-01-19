@@ -234,7 +234,7 @@ def show_intro_page():
                 'Who am I',
                 'Flunkyball',
                 'Spikeball',
-                'Three legged race',
+                'Three Legged Race',
                 'Beerpong',
                 'Music Video',
                 'Workout',
