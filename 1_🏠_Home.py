@@ -171,7 +171,7 @@ def show_intro_page():
             'P2': 'BigNaz',
             'color_background': '#FFD700',
             'color_text': '#727272',
-            'song': 'Schultenbräu',
+            'song': 'Schultenbrau',
             'P1_avatar': '🫸',
             'P2_avatar': '🥜',
             'Games': [
