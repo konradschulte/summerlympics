@@ -12,7 +12,7 @@ Features
 
 Repository Structure
 
-summerlympics-game/
+summerlympics-game/ \n
 |-- intro.py            # Home page script for game setup and customization
 ├── pages/
 │   └── Main.py         # Main gameplay logic, score tracking, and audio features
