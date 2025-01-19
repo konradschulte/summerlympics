@@ -1,5 +1,4 @@
 pandas
-random
 streamlit
 streamlit-extras
 time
