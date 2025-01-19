@@ -10,8 +10,9 @@ Features
 - Responsive UI: Utilize Streamlit's layout and session state to manage a seamless and interactive gameplay experience.
 - Game Summary: At the end of the game, view a comprehensive summary table including game outcomes and accumulated scores.
 
-Repository Structure
+## Repository Structure
 
+```plaintext
 summerlympics-game/
 ├── intro.py            # Home page script for game setup and customization
 ├── pages/
