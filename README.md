@@ -12,11 +12,3 @@ Features
 
 Repository Structure
 
-summerlympics-game/ \n
-|-- intro.py            # Home page script for game setup and customization
-├── pages/
-│   └── Main.py         # Main gameplay logic, score tracking, and audio features
-├── pictures/           # Directory for background images used in games
-├── sounds/             # Directory for audio files (background music, commentary, effects)
-├── requirements.txt    # List of Python dependencies
-└── README.md           # This file
