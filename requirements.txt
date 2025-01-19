@@ -1,5 +1,0 @@
-streamlit
-pygame
-pandas
-playsound==1.3.0
-streamlit-extras
