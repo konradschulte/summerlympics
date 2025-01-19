@@ -96,15 +96,29 @@ def update_score(player, game_number):
         st.session_state.p2_score += game_number
     st.session_state.games_played.append(game_number)
 
-def play_audio(file_path):
-    pass
-    #def play_sound():
-    #    try:
-    #        sound = pygame.mixer.Sound(file_path)
-    #        sound.play()
-    #    except Exception as e:
-    #        print(f"Error playing sound {file_path}: {e}")
-    #threading.Thread(target=play_sound, daemon=True).start()
+def play_audio(file_path: str):
+    """
+    Reads a local audio file and injects an HTML <audio> tag that autoplays the sound.
+    """
+    # Ensure the file exists
+    if not os.path.exists(file_path):
+        st.error(f"Audio file not found: {file_path}")
+        return
+
+    with open(file_path, "rb") as f:
+        data = f.read()
+    b64_encoded = base64.b64encode(data).decode()
+
+    # If you'd like to show audio controls, remove `style="display:none"` and add `controls`.
+    # If you'd like the audio muted by default, add `muted`:
+    #    e.g. <audio autoplay muted ...
+    audio_html = f"""
+        <audio autoplay style="display:none">
+            <source src="data:audio/mp3;base64,{b64_encoded}" type="audio/mp3">
+        </audio>
+    """
+
+    st.markdown(audio_html, unsafe_allow_html=True)
 
 def select_commentator_voice(winner, game_number):
     p1_score = st.session_state.p1_score
