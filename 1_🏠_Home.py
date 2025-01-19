@@ -82,6 +82,7 @@ if st.session_state.get('reset_clicked', False):
 
 def play_audio(file_path):
     """Play an audio file using pygame.mixer."""
+    pass
     #pygame.mixer.music.load(file_path)
     #pygame.mixer.music.play()
 
