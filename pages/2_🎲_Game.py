@@ -97,13 +97,13 @@ def update_score(player, game_number):
     st.session_state.games_played.append(game_number)
 
 def play_audio(file_path):
-    def play_sound():
-        try:
-            sound = pygame.mixer.Sound(file_path)
-            sound.play()
-        except Exception as e:
-            print(f"Error playing sound {file_path}: {e}")
-    threading.Thread(target=play_sound, daemon=True).start()
+    #def play_sound():
+    #    try:
+    #        sound = pygame.mixer.Sound(file_path)
+    #        sound.play()
+    #    except Exception as e:
+    #        print(f"Error playing sound {file_path}: {e}")
+    #threading.Thread(target=play_sound, daemon=True).start()
 
 def select_commentator_voice(winner, game_number):
     p1_score = st.session_state.p1_score
