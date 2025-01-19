@@ -1,4 +1,8 @@
+base64
+math
+os
 pandas
-pygame
+random
 streamlit
 streamlit-extras
+time
