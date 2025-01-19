@@ -77,13 +77,13 @@ st.markdown(
 if st.session_state.get('reset_clicked', False):
     initialize_session_state()
 
-pygame.init()
+#pygame.init()
 #pygame.mixer.init()
 
 def play_audio(file_path):
     """Play an audio file using pygame.mixer."""
-    pygame.mixer.music.load(file_path)
-    pygame.mixer.music.play()
+    #pygame.mixer.music.load(file_path)
+    #pygame.mixer.music.play()
 
 def apply_theme():
     color = st.session_state.selected_theme.get('background', '#FFD700')
