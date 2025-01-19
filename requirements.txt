@@ -1,5 +1,5 @@
 streamlit
 pygame
 pandas
-playsound
+playsound==1.3.0
 streamlit-extras
