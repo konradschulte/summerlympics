@@ -78,7 +78,7 @@ if st.session_state.get('reset_clicked', False):
     initialize_session_state()
 
 pygame.init()
-pygame.mixer.init()
+#pygame.mixer.init()
 
 def play_audio(file_path):
     """Play an audio file using pygame.mixer."""
